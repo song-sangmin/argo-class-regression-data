@@ -1,0 +1,28 @@
+{
+  "pcm_params": "pc8_gmm6_dbar500",
+  "sea_ice_clusters": [
+    5,
+    6
+  ],
+  "features": [
+    "CT",
+    "SA",
+    "log_mld",
+    "adt",
+    "sea_ice",
+    "wind_speed",
+    "atmos_pres_atm",
+    "max_solar_rad"
+  ],
+  "drop_features": [],
+  "target": "delta_pco2",
+  "trainval_file": "combined_trainval_pc8_gmm6_dbar500_seaiceclusters56_acc20261016.csv",
+  "n_trainval": 17461,
+  "run_name": "southernOcean_CRUSOE",
+  "run_config": "/Users/sangminsong/Documents/PROJECTS-PYTHON/CRUSOE-SOCarbon/x_localdata/runs/southernOcean_CRUSOE/config.toml",
+  "script": "regression-input-prep.py",
+  "date": "20261021",
+  "application_file": "coreArgo_application_pc8_gmm6_dbar500_acc20261016.csv",
+  "n_application": 337506,
+  "note": "written 2026-10-21 for the files in use; regression-input-prep.py reproduces them byte for byte"
+}
